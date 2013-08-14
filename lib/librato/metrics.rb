@@ -76,6 +76,7 @@ module Librato
                    :api_endpoint=, :authenticate, :connection, :delete,
                    :faraday_adapter, :faraday_adapter=, :fetch, :list,
                    :persistence, :persistence=, :persister, :submit,
+                   :sources, :get_source, :update_source,
                    :update
 
     # The Librato::Metrics::Client being used by module-level
